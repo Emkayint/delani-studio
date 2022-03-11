@@ -62,12 +62,30 @@ header{
 
 .fullName{
     width: 100%;
+    color: white;
     font-size: 20px;
+    border: 1px solid white;
+    background: rgba(0, 0, 0, .1);
     padding: 10px;
 }
 
 .email{
     width: 100%;
     padding: 10px;
+    border: 1px solid white;
+    color: white;
+    background: rgba(0, 0, 0, 0);
     font-size: 20px;
+}
+.textarea{
+    margin: 0 auto;
+    width: fit-content;
+    font-size: 30px;
+    color: black;
+}
+
+textarea{
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    color: white;
 }
