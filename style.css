@@ -1,5 +1,5 @@
 .hero{
-    height: 120vh;
+    height: 105vh;
     background-color: aqua;
     background-image: url(assets/backgrounds/h_img.jpg);
     background-size: cover;
@@ -16,4 +16,10 @@
 .my-content{
     margin-top: 30vh;
     position: relative;
+}
+
+.about{
+    padding: 50px;
+    text-align: center;
+    font-size: 2.5vh;
 }
