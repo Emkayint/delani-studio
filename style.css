@@ -59,3 +59,15 @@ header{
     background-position: center;
     background-size: cover;
 }
+
+.fullName{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.email{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
