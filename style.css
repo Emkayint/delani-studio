@@ -6,6 +6,10 @@
     background-position: center;
 }
 
+header{
+    font-size: 7vh;
+}
+
 .one{
     height: 100%;
 }
@@ -19,7 +23,25 @@
 }
 
 .about{
-    padding: 50px;
     text-align: center;
+    padding-top: 10vh;
     font-size: 2.5vh;
+    padding-bottom: 10vh;
+}
+
+
+.services{
+    background-image: url(assets/backgrounds/s_image.jpg);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    font-size: 2.5vh;
+}
+
+
+.h1{
+    font-size: 60vh;
 }
