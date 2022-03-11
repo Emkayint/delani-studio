@@ -89,3 +89,7 @@ textarea{
     border: 1px solid white;
     color: white;
 }
+
+.social img{
+    padding-left: 10px;
+}
