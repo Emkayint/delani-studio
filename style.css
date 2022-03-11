@@ -1,0 +1,7 @@
+.hero{
+    height: 100vh;
+    background-color: aqua;
+    background-image: url(assets/backgrounds/h_img.jpg);
+    background-size: cover;
+    background-position: center;
+}
