@@ -51,3 +51,11 @@ header{
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
+
+/* contact section */
+
+.contact{
+    background-image: url(assets/backgrounds/c_image.jpg);
+    background-position: center;
+    background-size: cover;
+}
