@@ -15,30 +15,32 @@ $(document).ready(() => {
         });
     });
 
-
+    let pics = ['1', '2', '3', '4', '5', '6', '7', '8']
     // Designing the pop up
-
-    if($("#p1").is(":visible")){
-        $('#p1').hide();
-    }
-
-    $("#pic1").hover(()=> {
-        $("#pic1").css({
-            "position": "relative",
-
+    pics.forEach( pic => {
+        if($("#p" + pic).is(":visible")){
+            $('#p' +pic).hide();
+        }
+    
+        $("#pic1").hover(()=> {
+            $("#pic1").css({
+                "position": "relative",
+    
+            });
+    
+            $("#p1").show();
+            
+            $("#p1").css({
+                "z-index" : "1000",
+                "position" : "absolute",
+                "background-color" : "#e69900",
+                "color" : "white",
+                'top' : "30px",
+                "left" : "20px",
+                "padding" : "20px",
+                "font-size" : "2.5vh"
+            });
         });
-
-        $("#p1").show();
-        
-        $("#p1").css({
-            "z-index" : "1000",
-            "position" : "absolute",
-            "background-color" : "#e69900",
-            "color" : "white",
-            'top' : "30px",
-            "left" : "20px",
-            "padding" : "20px",
-            "font-size" : "2.5vh"
-        });
-    });
+    })
+    
 });
