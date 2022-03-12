@@ -4,5 +4,14 @@ $(document).ready(() => {
         if($('.text' + div).is(":visible")){
             $(".text"+ div).hide();
         }
-    })
+        $(".div" + div).click(() =>{
+            if($(".image" + div).is(":visible")){
+                $(".image" + div).hide();
+                $(".text" + div).show();
+            } else if($(".text" + div).is(":visible")){
+                $(".text" + div).hide();
+                $(".image" + div).show();
+            }
+        })
+    });
 })
