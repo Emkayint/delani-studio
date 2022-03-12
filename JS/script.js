@@ -22,15 +22,15 @@ $(document).ready(() => {
             $('#p' +pic).hide();
         }
     
-        $("#pic1").hover(()=> {
-            $("#pic1").css({
+        $("#pic" + pic).hover(()=> {
+            $("#pic" + pic).css({
                 "position": "relative",
     
             });
     
-            $("#p1").show();
+            $("#p" + pic).show();
             
-            $("#p1").css({
+            $("#p" + pic).css({
                 "z-index" : "1000",
                 "position" : "absolute",
                 "background-color" : "#e69900",
