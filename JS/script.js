@@ -41,6 +41,10 @@ $(document).ready(() => {
                 "font-size" : "2.5vh"
             });
         });
-    })
+
+        $('#pic' + pic).mouseleave(() => {
+            $("#p" + pic).hide("slow");
+        });
+    });
     
 });
