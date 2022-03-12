@@ -100,3 +100,8 @@ textarea{
 .social{
     flex-wrap: wrap;
 }
+
+.div1, .div2, .div3{
+    text-align: center;
+    font-size: large;
+}
