@@ -25,9 +25,13 @@ header{
     height: 90%;
 }
 
-.two h1, h2, h3, h4, h5, h6{
+.two h1{
     color: white;
     font-weight: 900;
+}
+
+.two h3{
+    color: white;
 }
 .about{
     text-align: center;
@@ -80,20 +84,20 @@ header{
     background: rgba(0, 0, 0, 0);
     font-size: 20px;
 }
-.textarea{
+/* .textarea{
     width: fit-content;
     color: whitesmoke;
     margin: 0 auto;
     font-size: 2.5vh;
-}
+} */
 
-textarea{
+.textarea2{
     background: rgba(0, 0, 0, 0);
     border: 1px solid white;
     color: white;
     margin: 0 auto;
-    height: 30vh;
-    width: 90%;
+    /* height: 30vh; */
+    /* width: 90%; */
 }
 
 .social img{
@@ -109,3 +113,6 @@ textarea{
     font-size: large;
 }
 
+.do header{
+    color: black;
+}
