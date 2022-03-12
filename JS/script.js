@@ -12,6 +12,22 @@ $(document).ready(() => {
                 $(".text" + div).hide();
                 $(".image" + div).show();
             }
-        })
+        });
     });
-})
+
+
+    // Designing the pop up
+
+    $("#pic1").hover(()=> {
+        $("#pic1").css({
+            "position": "relative",
+        })
+        $("#p1").css({
+            "z-index" : "1000",
+            "position" : "absolute",
+            "background-color" : "black",
+            "color" : "white",
+            'top' : "0"
+        })
+    })
+});
