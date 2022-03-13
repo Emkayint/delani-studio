@@ -1,3 +1,4 @@
+// ui logic
 $(document).ready(() => {
     let divs = ['1', '2', '3'];
     divs.forEach((div) => {
@@ -47,24 +48,7 @@ $(document).ready(() => {
         });
     });
 
-    $("form").submit(() => {
-        if($('#mce-FNAME').val() === "" || $("#mce-EMAIL").val() === "" || $('#mce-MMERGE6').val() === ''){
-            $(".form-pop").show();
-            $(".pop-p").text("Don't leave empty fields")
-            $(".form-pop").css({
-                "background-color" : "red",
-                "font-size" : "2em"
-            });
-
-        } else {
-            $(".form-pop").show();
-            $(".pop-p").text(`Thank you ${$("#mce-FNAME").val()} for contacting us. We Received your message`)
-            $(".form-pop").css({
-                "background-color" : "#990099",
-                "font-size" : "1em"
-            });
-        }
-    });
+    
 
     
     
@@ -92,3 +76,25 @@ $(document).ready(() => {
 function myalert(){
     $(".form-pop").hide(); 
 };
+
+
+// Backend logic
+
+$("form").submit(() => {
+    if($('#mce-FNAME').val() === "" || $("#mce-EMAIL").val() === "" || $('#mce-MMERGE6').val() === ''){
+        $(".form-pop").show();
+        $(".pop-p").text("Don't leave empty fields")
+        $(".form-pop").css({
+            "background-color" : "red",
+            "font-size" : "2em"
+        });
+
+    } else {
+        $(".form-pop").show();
+        $(".pop-p").text(`Thank you ${$("#mce-FNAME").val()} for contacting us. We Received your message`)
+        $(".form-pop").css({
+            "background-color" : "#990099",
+            "font-size" : "1em"
+        });
+    }
+});
