@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 .hero{
     height: 115vh;
     background-color: aqua;
@@ -65,6 +70,7 @@ header{
     background-image: url(assets/backgrounds/c_image.jpg);
     background-position: center;
     background-size: cover;
+    color: white;
 }
 
 .fullName{
@@ -153,4 +159,5 @@ header{
 ::placeholder { 
     color: white;
     opacity: 1; 
-  }
+}
+
