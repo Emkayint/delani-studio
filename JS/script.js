@@ -56,6 +56,13 @@ $(document).ready(() => {
                 "font-size" : "2em"
             });
 
+        } else {
+            $(".form-pop").show();
+            $(".pop-p").text("Thank you: We Received your message")
+            $(".form-pop").css({
+                "background-color" : "#990099",
+                "font-size" : "1em"
+            });
         }
     });
 
