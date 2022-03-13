@@ -122,6 +122,16 @@ header{
     background: linear-gradient(45deg, #ac3939, #cc9900);
 }
 
+.button1{
+    color: wheat;
+    background:  blue;
+    padding: 10px;
+    border: none;
+    /* margin-left: 35%; */
+    margin-top: 30%;
+}
+
+
 #mc_embed_signup{
     position: relative;
 }
@@ -135,4 +145,7 @@ header{
     padding: 20px;
     height: 300px;
     margin: 0 auto;
+    display: none;
+    text-align: center;
+    color: wheat;
 }

@@ -49,9 +49,17 @@ $(document).ready(() => {
 
     $("form").submit(() => {
         if($('#mce-FNAME').val() === "" || $("#mce-EMAIL").val() === "" || $('#mce-MMERGE6').val() === ''){
-            alert('Fill in all the blank space')
+            $(".form-pop").show();
+            $(".pop-p").text("Don't leave empty fields")
+            $(".form-pop").css({
+                "background-color" : "red",
+                "font-size" : "2em"
+            });
+
         }
-    })
+    });
+
+    
     
     (function($) {
         window.fnames = new Array();
@@ -73,3 +81,7 @@ $(document).ready(() => {
     }(jQuery));
     // var $mcj = jQuery.noConflict(false);
 });
+
+function myalert(){
+    $(".form-pop").hide(); 
+};
