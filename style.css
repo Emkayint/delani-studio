@@ -88,7 +88,6 @@ header{
 
     color: whitesmoke;
     margin: 0 auto;
-    font-size: 2.5vh;
     padding-bottom: 30px;
 }
 
@@ -97,6 +96,7 @@ header{
     border: 1px solid white;
     color: white;
     margin: 0 auto;
+    font-size: 1.5em;
     width: 90%;
 }
 
@@ -149,3 +149,8 @@ header{
     text-align: center;
     color: wheat;
 }
+
+::placeholder { 
+    color: white;
+    opacity: 1; 
+  }
