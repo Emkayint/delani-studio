@@ -46,6 +46,12 @@ $(document).ready(() => {
             $("#p" + pic).hide("slow");
         });
     });
+
+    $("form").submit(() => {
+        if($('#mce-FNAME').val() === "" || $("#mce-EMAIL").val() === "" || $('#mce-MMERGE6').val() === ''){
+            alert('Fill in all the blank space')
+        }
+    })
     
     (function($) {
         window.fnames = new Array();
@@ -65,5 +71,5 @@ $(document).ready(() => {
         fnames[6] = 'MMERGE6';
         ftypes[6] = 'text';
     }(jQuery));
-    var $mcj = jQuery.noConflict(true);
+    // var $mcj = jQuery.noConflict(false);
 });
