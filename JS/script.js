@@ -1,4 +1,5 @@
 // ui logic
+
 $(document).ready(() => {
     let divs = ['1', '2', '3'];
     divs.forEach((div) => {
@@ -46,13 +47,7 @@ $(document).ready(() => {
         $('#pic' + pic).mouseleave(() => {
             $("#p" + pic).hide("slow");
         });
-    });
-
-    
-
-    
-    
-    
+    }); 
 });
 
 function myAlert(){

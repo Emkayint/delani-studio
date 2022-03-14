@@ -4,6 +4,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
 .hero{
     height: 115vh;
     background-color: aqua;
@@ -21,6 +22,7 @@ header{
 .one{
     height: 100%;
 }
+
 .two img{
     padding-top: 10%;
     padding-bottom: 30px;
@@ -39,14 +41,13 @@ header{
 .two h3{
     color: white;
 }
+
 .about{
     text-align: center;
     padding-top: 10vh;
     font-size: 2.5vh;
     padding-bottom: 10vh;
 }
-
-
 
 .services{
     background-image: url(assets/backgrounds/s_image.jpg);
@@ -91,6 +92,7 @@ header{
     background: rgba(0, 0, 0, 0);
     font-size: 20px;
 }
+
 .textarea{
 
     color: whitesmoke;
